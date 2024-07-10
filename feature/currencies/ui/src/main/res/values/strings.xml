@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="demo_options_screen_clear_data_button_label">Clear data</string>
+    <string name="demo_options_screen_insert_data_button_label">Insert data</string>
+    <string name="demo_options_screen_show_crypto_currencies_button_label">Show crypto currencies</string>
+    <string name="demo_options_screen_show_fiat_currencies_button_label">Show fiat currencies</string>
+    <string name="demo_options_screen_show_all_currencies_button_label">Show all currencies</string>
+    <string name="demo_options_screen_data_cleared_confirmation_toast_message">Data cleared</string>
+    <string name="demo_options_screen_data_inserted_confirmation_toast_message">Data inserted</string>
+    <string name="demo_options_screen_data_loading_error_toast_message">Error while inserting data!\nPlease clear the data first</string>
+
+    <string name="currency_list_screen_search_menu_item_label">Search</string>
+    <string name="currency_list_screen_search_menu_item_hint">Type to search</string>
+    <string name="currency_list_screen_no_data_label">No currencies data available</string>
+    <string name="currency_list_screen_no_search_results_label">No search results\nTry different query</string>
+</resources>
