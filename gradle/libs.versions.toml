@@ -12,6 +12,8 @@ koin-bom = "3.5.6"
 room = "2.6.1"
 moshi = "1.15.0"
 junit = "4.13.2"
+mockk = "1.13.9"
+coroutines = "1.8.1"
 
 [libraries]
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
@@ -39,6 +41,8 @@ moshi-kotlin-codegen = { group = "com.squareup.moshi", name = "moshi-kotlin-code
 
 # Tests
 junit = { group = "junit", name = "junit", version.ref = "junit" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

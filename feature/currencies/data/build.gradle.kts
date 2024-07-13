@@ -48,6 +48,8 @@ dependencies {
 
     // Tests
     testImplementation(libs.junit)
+    testImplementation(libs.mockk)
+    testImplementation(libs.coroutines.test)
 
     // Project's module dependencies
     implementation(projects.feature.currencies.domain)
